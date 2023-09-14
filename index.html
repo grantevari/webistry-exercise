@@ -10,11 +10,61 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<main>
-    <h1>Good luck!</h1>
-    <div></div>
-</main>
-<script src="main.js"></script>
+<body class="background-color">
+  <main class="general-container">
+
+    <div class="top-container">
+
+      <div class="red-box logo-container">
+        <img class="webistry-logo" src="images/webistry-logo.webp" alt="Webistry logo">
+      </div>
+
+      <div class="red-box logo-container">
+        <img class="le-wagon-logo" src="images/le-wagon-logo.png" alt="Le Wagon logo">
+      </div>
+
+    </div>
+
+    <div class="red-box title-container">
+      <h1><span style="color: #DF6962">Level up</span> your coding</h1>
+      <h1>skills with Webistry!</h1>
+    </div>
+
+      <div class="form-box">
+        <h2 class="form-title">Let's get started by knowing more about you.</h2>
+
+        <div class="input-container">
+          <label class="input-name">Name</label>
+          <input class="input" type="text" placeholder="Enter your name"></input>
+        </div>
+
+        <div class="input-container">
+          <label class="input-name">Email</label>
+          <input class="input" type="text" placeholder="Enter your email"></input>
+        </div>
+
+        <div class="input-container">
+          <label class="input-name" for="cars">What's your favorite coding language?</label>
+
+            <select class="input" name="cars" id="cars">
+              <option value="JavaScript">Volvo</option>
+            </select>
+
+            <div class="checkbox-container">
+              <input class="checkbox-input" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+              <p>The information provided above is accurate</p>
+            </div>
+
+        </div>
+
+        <div>
+          <div class="button">
+            <p>Level up</p>
+          </div>
+        </div>
+
+      </div>
+  </main>
+  <script src="main.js"></script>
 </body>
 </html>
